@@ -4,7 +4,12 @@
 
 소프트웨어를 어떤 구조로 만들지 정하는 Codex 스킬입니다. 사용자가 처음 완료할 동작 하나를 고르고, 입력부터 결과까지 따라갑니다. 그 과정에서 각 판단을 누가 맡는지, 데이터를 어디에 두는지, 중간에 문제가 생기면 어떻게 처리할지 정합니다.
 
-[범용 스킬 다운로드](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture.zip) · [범용 스킬 + Unity 다운로드](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture-with-unity.zip)
+## 다운로드 선택
+
+- **Unity 게임을 설계하나요?** [두 스킬 함께 다운로드](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture-with-unity.zip)
+- **다른 소프트웨어를 설계하나요?** [범용 스킬 다운로드](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture.zip)
+
+[Unity 스킬만 다운로드](https://github.com/Ddrubok/unity-game-architecture/releases/latest/download/unity-game-architecture.zip)
 
 ![예약 요청을 예로 들어 책임을 정하고, 필요할 때 전문 스킬의 도움을 받아 확인 기준을 만드는 구조도](assets/design-flow.png)
 

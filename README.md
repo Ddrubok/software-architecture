@@ -4,7 +4,12 @@
 
 A Codex skill for deciding how a piece of software should be put together. Pick the first task a user needs to complete, then trace it from input to result. That makes it easier to see which part should make each decision, where data should live, and what happens if a step fails.
 
-[Download the general skill](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture.zip) · [Download the general skill + Unity](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture-with-unity.zip)
+## Choose a download
+
+- **Designing a Unity game?** [Download both skills](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture-with-unity.zip)
+- **Designing other software?** [Download the general skill](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture.zip)
+
+[Download the Unity skill on its own](https://github.com/Ddrubok/unity-game-architecture/releases/latest/download/unity-game-architecture.zip)
 
 ![A flowchart uses an appointment request to show how to assign responsibility, bring in specialist guidance when needed, and define what to verify.](assets/design-flow.en.png)
 
