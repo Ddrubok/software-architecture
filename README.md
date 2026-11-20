@@ -1,34 +1,31 @@
 # software-architecture
 
-새 기능을 만들기 전에 **어떤 코드가 어떤 책임을 맡을지** 정하는 Codex 스킬입니다. 사용자가 처음 끝내야 할 동작을 하나 고르고, 입력을 받아 결과를 보여주기까지 필요한 모듈과 데이터의 흐름을 설계합니다.
+[한국어](README.ko.md)
 
-![첫 사용자 동작에서 공통 설계로 이어지고, Unity 구조가 중요할 때 전문 스킬의 결정을 합쳐 실행 흐름과 검증 기준을 정하는 구조도](assets/design-flow.png)
+A Codex skill for deciding how a piece of software should be put together. Pick the first task a user needs to complete, then trace it from input to result. That makes it easier to see which part should make each decision, where data should live, and what happens if a step fails.
 
-## 어떻게 쓰나요?
+![A flowchart uses an appointment request to show how to assign responsibility, bring in specialist guidance when needed, and define what to verify.](assets/design-flow.en.png)
 
-Codex에서 스킬 이름과 설계할 프로젝트를 함께 입력합니다.
+## Try it
 
 ```text
-$software-architecture Unity 게임에 서버 저장을 붙이고 싶어요.
-첫 저장이 완료되는 흐름을 기준으로 게임과 서버가 맡을 일을 나눠 주세요.
+$software-architecture Design the first working flow for an appointment booking app.
+Show how a request becomes a confirmed booking and what happens if two people pick the same slot.
 ```
 
-이 요청에서는 플레이어가 **저장 버튼을 누르는 순간**부터 따라갑니다. 서버가 저장 결과를 확정하기로 했다면, 게임은 저장할 정보를 보내고 서버는 쓰기를 완료한 뒤 응답합니다. 저장은 끝났는데 응답만 끊길 수 있으므로, 같은 요청을 다시 받았을 때 어떻게 처리할지도 정합니다.
+Start with someone choosing a time. If a slot can hold only one booking, decide which part of the system makes the final call. The screen shows that decision. One test sends two requests for the same slot and checks that exactly one is confirmed.
 
-프로젝트에 `unity-game-architecture` 스킬이 설치돼 있고 씬 전환이 설계에 영향을 준다면, 그 스킬도 읽습니다. 예를 들어 메뉴로 돌아가도 현재 판을 이어갈 수 있어야 한다면, Unity에서 어느 객체가 판의 정보를 계속 갖고 있을지 구체화합니다.
+## What you get
 
-## 무엇을 받나요?
+- A map of the parts involved in the first user task and how they communicate
+- A decision about which part can change each piece of data and how long that data is kept
+- Checks for the normal flow and relevant failures, plus the conditions that would change the design
 
-- 첫 동작의 입력부터 결과까지 이어지는 구조와 처리 순서
-- 데이터를 바꿀 수 있는 모듈과 그 데이터가 유지되는 기간
-- 처음부터 구조에 반영할 요구와, 구조를 다시 검토할 조건
-- 정상 작동과 실패 후 복구를 확인할 기준
+Ask for implementation as well, and the skill guides Codex to connect and verify that first flow in the project. If a platform constraint affects the design, it can use an installed specialist skill for that part. See the [specialist selection guide](references/domain-routing.md).
 
-설계를 요청하면 위 내용을 정리합니다. 구현까지 요청하면 첫 동작이 실제로 실행되도록 연결하고, 그 구조를 선택한 근거가 되는 경로를 확인합니다.
+## Install
 
-## 설치
-
-Windows PowerShell에서 저장소를 Codex 스킬 폴더에 복제합니다.
+Clone the repository into your Codex skills folder. In Windows PowerShell, run the following.
 
 ```powershell
 $skillRoot = if ($env:CODEX_HOME) {
@@ -40,4 +37,4 @@ New-Item -ItemType Directory -Path $skillRoot -Force | Out-Null
 git clone https://github.com/Ddrubok/software-architecture.git (Join-Path $skillRoot 'software-architecture')
 ```
 
-[스킬 지침](SKILL.md) · [전문 스킬을 적용하는 조건](references/domain-routing.md)
+[Skill instructions](SKILL.md)
