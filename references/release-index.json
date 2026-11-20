@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "skills": {
+    "flutter-app-architecture": {
+      "v1.0.0": {
+        "archive_sha256": "ef4393e73c7c3a155c780fd1d47d5e064749bece77bfe260382b36a65f657201",
+        "files": {
+          "SKILL.md": "8581c173b1d00fa9b263e919e08ebfac9b4d25f2be4f30093dc3b7483d975116",
+          "agents/openai.yaml": "4b86e322232d934581995256b103647d43e49ebeeeccbbb8b1c81172b3491f0b"
+        }
+      },
+      "v1.1.0": {
+        "archive_sha256": "28b827263b943fe0cb8928e79bde18d81cd396c41a072978c5f1ff91e6f38d72",
+        "files": {
+          "README.ko.md": "b1692ecd20e67440b41ed55d099c94b25a5d2c396d3e3597fbe3f74f513e6c70",
+          "README.md": "8107b8d013a331b3d97e48a36e984b1b5340bdc9ff9056238175ea0f5b572a24",
+          "SKILL.md": "87bce5c3b5e49235eb87058cdf28a3323c2a6cb4f8d13494b4398dc9696b9cd0",
+          "VERSION": "6bf25061d3caea72d34f961997d35aca8c8d960aaddac2413516882e6706c97e",
+          "agents/openai.yaml": "4b86e322232d934581995256b103647d43e49ebeeeccbbb8b1c81172b3491f0b"
+        }
+      }
+    },
+    "godot-game-architecture": {
+      "v1.0.0": {
+        "archive_sha256": "c71ed3343bb4b9b45417735729bcce5e5f717e0183c40a4afb50115a6125cd86",
+        "files": {
+          "SKILL.md": "976ff22cfea7f6446d9d503659779b46d2c07497a77be208fe673a0c29fcd26b",
+          "agents/openai.yaml": "fdfe89785f35642959c1f10ce7e9f3b92ba351ae7c5b312760b70e4a1c31f1f5"
+        }
+      },
+      "v1.1.0": {
+        "archive_sha256": "48043cf57003c08dfe12dfd3fd4b85ff55bd5e34043ecb93ce2a082a59ca255e",
+        "files": {
+          "README.ko.md": "3aa7a762decfdab704343f5a86a4297e9be1621fa560273007848d52a5ee1e01",
+          "README.md": "dae189ff65ebe4e28ac2eaf5335e3240808139a0a8576879c6f66e4ee134f871",
+          "SKILL.md": "af260660eb8426e182b3c7b5988bfbebd06151d46cd045078dcee2021714b9c6",
+          "VERSION": "6bf25061d3caea72d34f961997d35aca8c8d960aaddac2413516882e6706c97e",
+          "agents/openai.yaml": "fdfe89785f35642959c1f10ce7e9f3b92ba351ae7c5b312760b70e4a1c31f1f5"
+        }
+      }
+    },
+    "rust-software-architecture": {
+      "v1.0.0": {
+        "archive_sha256": "e3f436faa7ee4e90eb5bb1053ce26aeb67d36e8c488dbd1d6ac4d754b59c5642",
+        "files": {
+          "SKILL.md": "b65370d04e714a48141f0b1d36095ac40b90965d98663b61bce3dbdba4024ce1",
+          "agents/openai.yaml": "6543084aa98ea3bb16e1fd920f2d5a44ee8e893a112fee87fd491bca9b9f8418"
+        }
+      },
+      "v1.1.0": {
+        "archive_sha256": "faf67724d0f2c3b0cf9c696c0f04b5e28c173e9aa4c82dfd727aecf4120c8676",
+        "files": {
+          "README.ko.md": "7c30d1d84a11b672479f67c646e58bfae8302dce9f28231ee41c935068b86ea7",
+          "README.md": "d41e1a897ab530a958a251ab789ede1d39155eb2c359e549453e3a4f42556106",
+          "SKILL.md": "9a08403a20ef4270f56e180b9a3146206886e9bc445b441f5b17a8016c17f831",
+          "VERSION": "6bf25061d3caea72d34f961997d35aca8c8d960aaddac2413516882e6706c97e",
+          "agents/openai.yaml": "6543084aa98ea3bb16e1fd920f2d5a44ee8e893a112fee87fd491bca9b9f8418"
+        }
+      }
+    },
+    "unity-game-architecture": {
+      "v1.0.0": {
+        "archive_sha256": "e3261e1577bdeb6c95781d750dc17371e2d34fc91be40c44c88bf318a31d00f9",
+        "files": {
+          "SKILL.md": "8b71cd0622dbc1483aef4ddf0a3a6c481f6daeb4240100964239b1cc8ed23585",
+          "agents/openai.yaml": "ecc18acca8600251d30c5ba39900c4af841e48a90f0c46aa25db0e2df74a828f",
+          "references/game-cases.md": "a62aa74d8e15b51e4a90cdec8220febcb3d7690166fae3a5a73788d2801f496f",
+          "references/pattern-selection.md": "dcfd1363471b5a7feb46d374bc4405fc287c249e0341ae97272f556e363b9d4a"
+        }
+      },
+      "v1.1.0": {
+        "archive_sha256": "639b79e539ab98c74f030ddbde6054cb7bbf9395fe4ef5bea3756563a20b7c3b",
+        "files": {
+          "README.ko.md": "63645e471adaaf821d9b7a3cf378492229c1c4c6f3a2a4a98f9e53370e370ce1",
+          "README.md": "388b4d1df0e1c317f1dffee34ad02b5397e4ed2ea6c27d0d0c285bd1262cf81b",
+          "SKILL.md": "4553b78f52677ba3e30fdd25e98841f7fce87c33cf19dbce77ba153e52776588",
+          "VERSION": "6bf25061d3caea72d34f961997d35aca8c8d960aaddac2413516882e6706c97e",
+          "agents/openai.yaml": "ecc18acca8600251d30c5ba39900c4af841e48a90f0c46aa25db0e2df74a828f",
+          "assets/first-play.en.png": "e5afc1642ec52ade5de54be6c57e0028450790cf09607fdb427c9eab2aefe495",
+          "assets/first-play.ko.png": "2465fdcebe36b51a6c30a0874cafbb5e6d95cf1a61d5734ec2daa7b515ff84f4",
+          "references/game-cases.md": "a62aa74d8e15b51e4a90cdec8220febcb3d7690166fae3a5a73788d2801f496f",
+          "references/pattern-selection.md": "31255452a249d29a0fee5d0b8bd1da766442401c441c491c56566c9c7e980f48"
+        }
+      }
+    },
+    "unreal-game-architecture": {
+      "v1.0.0": {
+        "archive_sha256": "2c8589def88b303ac461ee05ae6e162959864135a7b73d505a7c8faf6dd587b9",
+        "files": {
+          "SKILL.md": "95f71d49059375520cc95d7942b0956424cf6de73b454e7c50f6f558518fef05",
+          "agents/openai.yaml": "7c12eba6fb3c14b4b0c271fc6b5226b3a187eb2c871cc6b67aaea6d761d5a0a2"
+        }
+      },
+      "v1.1.0": {
+        "archive_sha256": "edfd7b026eaa210b8cc9aa5269f31576b9917b3b84074032c4acc012e2be2c42",
+        "files": {
+          "README.ko.md": "351df8013a4c604c4ffc4986df0f5e34486411a36c64c361626d27711337f0bc",
+          "README.md": "b83d945fe9884a0782763d328b89293e504dae727b527e3da0e7fb2b8209e347",
+          "SKILL.md": "f56af789ffcef03f3562ba7068c80d8e0d12bb776195ad807c8a55263256c2e3",
+          "VERSION": "6bf25061d3caea72d34f961997d35aca8c8d960aaddac2413516882e6706c97e",
+          "agents/openai.yaml": "7c12eba6fb3c14b4b0c271fc6b5226b3a187eb2c871cc6b67aaea6d761d5a0a2"
+        }
+      }
+    }
+  }
+}

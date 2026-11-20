@@ -1,22 +1,22 @@
 {
   "flutter-app-architecture": {
-    "tag": "v1.0.0",
-    "sha256": "ef4393e73c7c3a155c780fd1d47d5e064749bece77bfe260382b36a65f657201"
+    "tag": "v1.1.0",
+    "sha256": "28b827263b943fe0cb8928e79bde18d81cd396c41a072978c5f1ff91e6f38d72"
   },
   "godot-game-architecture": {
-    "tag": "v1.0.0",
-    "sha256": "c71ed3343bb4b9b45417735729bcce5e5f717e0183c40a4afb50115a6125cd86"
+    "tag": "v1.1.0",
+    "sha256": "48043cf57003c08dfe12dfd3fd4b85ff55bd5e34043ecb93ce2a082a59ca255e"
   },
   "rust-software-architecture": {
-    "tag": "v1.0.0",
-    "sha256": "e3f436faa7ee4e90eb5bb1053ce26aeb67d36e8c488dbd1d6ac4d754b59c5642"
+    "tag": "v1.1.0",
+    "sha256": "faf67724d0f2c3b0cf9c696c0f04b5e28c173e9aa4c82dfd727aecf4120c8676"
   },
   "unity-game-architecture": {
-    "tag": "v1.0.0",
-    "sha256": "e3261e1577bdeb6c95781d750dc17371e2d34fc91be40c44c88bf318a31d00f9"
+    "tag": "v1.1.0",
+    "sha256": "639b79e539ab98c74f030ddbde6054cb7bbf9395fe4ef5bea3756563a20b7c3b"
   },
   "unreal-game-architecture": {
-    "tag": "v1.0.0",
-    "sha256": "2c8589def88b303ac461ee05ae6e162959864135a7b73d505a7c8faf6dd587b9"
+    "tag": "v1.1.0",
+    "sha256": "edfd7b026eaa210b8cc9aa5269f31576b9917b3b84074032c4acc012e2be2c42"
   }
 }

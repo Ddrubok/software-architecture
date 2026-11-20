@@ -19,6 +19,16 @@ Codex identifies two decisions in this request. The Flutter specialist handles t
 
 When Codex selects a specialist, it first looks for a local copy. If it is missing, the included Python 3 helper downloads the listed GitHub release, checks its SHA-256 digest, and installs it in your skills directory. Codex then reads it during the same task. If you ask to work offline, Codex uses the skills already available. A general design question can be answered with the base skill alone.
 
+## Which version did my design use?
+
+The design reports each specialist it actually read. The helper checks the local files against published ZIP inventories, including older releases. To inspect a particular copy offline, run this command from the general skill folder. Replace the final path with that copy's actual location.
+
+```sh
+python3 scripts/ensure_specialist.py godot-game-architecture --status --entry "/path/to/godot-game-architecture/SKILL.md"
+```
+
+Add `--json` for structured output. A verified tag identifies matching release files. A local edit can still be traced to the original download when an install record exists. A VERSION file on its own identifies what the copy declares. Inspection preserves local files.
+
 ## Available specialists
 
 | Technology | A decision the skill helps make |
