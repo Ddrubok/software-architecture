@@ -4,6 +4,8 @@
 
 A Codex skill for deciding how a piece of software should be put together. Pick the first task a user needs to complete, then trace it from input to result. That makes it easier to see which part should make each decision, where data should live, and what happens if a step fails.
 
+[Download the general skill](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture.zip) · [Download the general skill + Unity](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture-with-unity.zip)
+
 ![A flowchart uses an appointment request to show how to assign responsibility, bring in specialist guidance when needed, and define what to verify.](assets/design-flow.en.png)
 
 ## Try it
@@ -25,16 +27,8 @@ Ask for implementation as well, and the skill guides Codex to connect and verify
 
 ## Install
 
-Clone the repository into your Codex skills folder. In Windows PowerShell, run the following.
+Download a ZIP above and extract it. Move the `software-architecture` folder into your Codex skills directory. For the Unity bundle, move `unity-game-architecture` into that same directory too, beside `software-architecture`.
 
-```powershell
-$skillRoot = if ($env:CODEX_HOME) {
-    Join-Path $env:CODEX_HOME 'skills'
-} else {
-    Join-Path $env:USERPROFILE '.codex/skills'
-}
-New-Item -ItemType Directory -Path $skillRoot -Force | Out-Null
-git clone https://github.com/Ddrubok/software-architecture.git (Join-Path $skillRoot 'software-architecture')
-```
+The skills directory is `$CODEX_HOME/skills` if you have set `CODEX_HOME`. The default is `~/.codex/skills`.
 
 [Skill instructions](SKILL.md)

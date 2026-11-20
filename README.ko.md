@@ -4,6 +4,8 @@
 
 소프트웨어를 어떤 구조로 만들지 정하는 Codex 스킬입니다. 사용자가 처음 완료할 동작 하나를 고르고, 입력부터 결과까지 따라갑니다. 그 과정에서 각 판단을 누가 맡는지, 데이터를 어디에 두는지, 중간에 문제가 생기면 어떻게 처리할지 정합니다.
 
+[범용 스킬 다운로드](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture.zip) · [범용 스킬 + Unity 다운로드](https://github.com/Ddrubok/software-architecture/releases/latest/download/software-architecture-with-unity.zip)
+
 ![예약 요청을 예로 들어 책임을 정하고, 필요할 때 전문 스킬의 도움을 받아 확인 기준을 만드는 구조도](assets/design-flow.png)
 
 ## 사용 예시
@@ -25,16 +27,8 @@ $software-architecture 예약 앱에서 첫 예약이 완료되는 흐름을 설
 
 ## 설치
 
-저장소를 Codex 스킬 폴더에 복제합니다. Windows PowerShell에서는 아래 명령을 실행합니다.
+위에서 원하는 ZIP을 내려받아 압축을 풉니다. `software-architecture` 폴더를 Codex 스킬 폴더에 넣으세요. Unity 포함 버전이라면 `unity-game-architecture` 폴더도 같은 위치에 나란히 넣습니다.
 
-```powershell
-$skillRoot = if ($env:CODEX_HOME) {
-    Join-Path $env:CODEX_HOME 'skills'
-} else {
-    Join-Path $env:USERPROFILE '.codex/skills'
-}
-New-Item -ItemType Directory -Path $skillRoot -Force | Out-Null
-git clone https://github.com/Ddrubok/software-architecture.git (Join-Path $skillRoot 'software-architecture')
-```
+`CODEX_HOME`을 설정했다면 스킬 폴더는 `$CODEX_HOME/skills`입니다. 기본 위치는 `~/.codex/skills`입니다.
 
 [스킬 지침](SKILL.md)
